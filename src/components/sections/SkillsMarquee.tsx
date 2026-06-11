@@ -12,6 +12,7 @@ export function SkillsMarquee() {
         {items.map((item, i) => (
           <span
             key={`${item}-${i}`}
+            aria-hidden={i >= t.skills.items.length || undefined}
             className="flex items-center gap-10 text-sm whitespace-nowrap text-muted-foreground"
           >
             <span>{item}</span>
