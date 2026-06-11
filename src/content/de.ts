@@ -44,9 +44,12 @@ export const de: Content = {
       "Angular",
       "React",
       "Python",
-      "Docker",
+      "Spring Boot",
+      "Spring AI",
+      "LangChain",
       "SQL",
-      "Spring",
+      "Docker",
+      "CI/CD",
       "AspectJ",
       "Git & GitHub",
       "Agile / Scrum",
@@ -187,7 +190,7 @@ export const de: Content = {
         role: "Agile Coach · SysAdmin · Entwickler",
         description:
           "Ein inklusives und effizientes Bewerbungsportal für Promotionsstellen an der TUM. Ich leite den agilen Prozess für 6 Entwickler, betreibe die Serverinfrastruktur, entwickle mit und betreue Bachelorarbeiten rund um die Plattform.",
-        tags: ["Java", "Spring Boot", "Angular", "Agile", "CI/CD"],
+        tags: ["Java", "Spring Boot", "Angular", "Agile", "Docker", "CI/CD", "GitHub"],
         link: "https://aet.cit.tum.de/projects/edtech/tum-apply/",
       },
       {
@@ -197,7 +200,7 @@ export const de: Content = {
         role: "Masterarbeit · Visualisierung",
         description:
           "KI-gestütztes Technologie-Foresight-System, entwickelt als meine Masterarbeit in Zusammenarbeit mit BMW: Trendsignale werden zu wahrscheinlichkeitsgewichteten Zukunftsszenarien, präsentiert als interaktives „Fenster in die Zukunft“ auf dem Touch-Display des BMW Future Lab. Ich verantworte die interaktive Visualisierung vollständig.",
-        tags: ["AI", "Technology Foresight", "Data Visualization", "Touch UI"],
+        tags: ["AI", "Technology Foresight", "Data Visualization", "Touch UI", "Docker", "CI/CD", "GitHub"],
         link: "[PLACEHOLDER: Project Nexus link]",
       },
       {
@@ -207,7 +210,7 @@ export const de: Content = {
         role: "Reviewer · Contributor",
         description:
           "Interaktive Lernplattform mit tausenden Studierenden. Entwickler während meiner Bachelorarbeit, heute Reviewer mit gelegentlichen Pull Requests.",
-        tags: ["Java", "Spring Boot", "Angular"],
+        tags: ["Java", "Spring Boot", "Angular", "Docker", "CI/CD", "GitHub"],
         link: "https://github.com/ls1intum/Artemis",
       },
       {
@@ -216,7 +219,7 @@ export const de: Content = {
         status: "ongoing",
         role: "Qualitätssicherung",
         description: "Chatbot für die TUM — ich verantworte die Qualitätssicherung.",
-        tags: ["LLM", "QA"],
+        tags: ["LLM", "QA", "Docker", "CI/CD", "GitHub"],
         link: "https://aet.cit.tum.de/projects/courses/ipraktikum/25s/",
       },
       {
@@ -226,7 +229,7 @@ export const de: Content = {
         role: "Entwickler",
         description:
           "KI-gestütztes Bewertungssystem. Ich habe das Code-Quality-Assessment für Programmieraufgaben entwickelt.",
-        tags: ["Python", "LLM"],
+        tags: ["Python", "LLM", "LangChain", "Docker", "CI/CD", "GitHub"],
         link: "https://aet.cit.tum.de/projects/edtech/athena/",
       },
       {
@@ -236,7 +239,7 @@ export const de: Content = {
         role: "Entwickler",
         description:
           "Sichere Testausführung für Programmieraufgaben, umgesetzt mit AspectJ und aspektorientierter Programmierung.",
-        tags: ["Java", "AspectJ"],
+        tags: ["Java", "AspectJ", "Docker", "CI/CD", "GitHub"],
         link: "https://aet.cit.tum.de/projects/se/ares/",
       },
       {
@@ -246,7 +249,7 @@ export const de: Content = {
         role: "Entwickler",
         description:
           "LLM-gestützte Bewertung von Zusammenarbeit und Codequalität für teambasierte Programmierkurse, im Team entwickelt.",
-        tags: ["Java", "Spring Boot", "Spring AI", "React"],
+        tags: ["Java", "Spring Boot", "Spring AI", "React", "Docker", "CI/CD", "GitHub"],
         link: "https://github.com/ls1intum/Harmonia",
       },
     ],
