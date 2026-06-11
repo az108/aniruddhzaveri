@@ -55,7 +55,8 @@ export function ExperienceTimeline() {
             className="absolute -left-[5px] h-[11px] w-[11px] rounded-full bg-teal-300 shadow-[0_0_16px_#2dd4bf]"
           />
         </div>
-        <div className="flex min-w-0 flex-1 flex-col gap-8 pb-8">
+        {/* overflow-x-clip: cards animate in from x+32px and must not widen the page */}
+        <div className="flex min-w-0 flex-1 flex-col gap-8 overflow-x-clip pb-8">
           {entries.map((entry, i) => (
             <TimelineEntryCard
               key={entry.id}
