@@ -23,12 +23,20 @@ const LanguageContext = createContext<LangContextValue | null>(null)
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [lang, setLang] = useState<Lang>(() => {
-    const stored = localStorage.getItem("lang")
-    return stored === "de" || stored === "en" ? stored : "en"
+    try {
+      const stored = localStorage.getItem("lang")
+      return stored === "de" || stored === "en" ? stored : "en"
+    } catch {
+      return "en"
+    }
   })
 
   useEffect(() => {
-    localStorage.setItem("lang", lang)
+    try {
+      localStorage.setItem("lang", lang)
+    } catch {
+      // private-mode storage may reject writes; losing persistence is fine
+    }
     document.documentElement.lang = lang
   }, [lang])
 
