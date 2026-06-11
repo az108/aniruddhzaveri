@@ -11,6 +11,14 @@ class MockIntersectionObserver {
 globalThis.IntersectionObserver =
   MockIntersectionObserver as unknown as typeof IntersectionObserver
 
+class MockResizeObserver {
+  observe() {}
+  unobserve() {}
+  disconnect() {}
+}
+globalThis.ResizeObserver =
+  MockResizeObserver as unknown as typeof ResizeObserver
+
 if (!window.matchMedia) {
   window.matchMedia = ((query: string) =>
     ({
