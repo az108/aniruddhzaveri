@@ -20,7 +20,7 @@ export function ExperienceTimeline() {
     offset: ["start 0.7", "end 0.5"],
   })
   const lineProgress = useSpring(scrollYProgress, { stiffness: 80, damping: 24 })
-  const dotTop = useTransform(lineProgress, (v) => `calc(${v * 100}% - 6px)`)
+  const dotTop = useTransform(lineProgress, (v) => `max(0px, calc(${v * 100}% - 6px))`)
 
   const entries = t.experience.entries
   const handleActive = useCallback((i: number) => setActiveIdx(i), [])

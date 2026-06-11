@@ -13,9 +13,16 @@ export function TimelineEntryCard({ entry, typeLabels, onActive }: TimelineEntry
   const ref = useRef<HTMLElement>(null)
   const isInView = useInView(ref, { margin: "-45% 0px -45% 0px" })
 
+  // ref keeps the effect dependent only on isInView, so parent re-renders
+  // (which recreate the onActive closure) don't re-run all card effects
+  const onActiveRef = useRef(onActive)
   useEffect(() => {
-    if (isInView) onActive()
-  }, [isInView, onActive])
+    onActiveRef.current = onActive
+  })
+
+  useEffect(() => {
+    if (isInView) onActiveRef.current()
+  }, [isInView])
 
   const isWork = entry.type === "work"
   return (
