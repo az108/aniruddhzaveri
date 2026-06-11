@@ -8,7 +8,7 @@ function ProjectCard({ project, statusLabel }: { project: Project; statusLabel: 
   const hasLink = project.link.startsWith("http")
   const className = `group block rounded-xl border border-border bg-card/60 p-6 transition-colors hover:border-teal-700 ${
     project.flagship
-      ? "bg-gradient-to-br from-teal-950/40 to-indigo-950/30 md:col-span-2"
+      ? "bg-gradient-to-br from-teal-950/40 to-indigo-950/30"
       : ""
   }`
 
