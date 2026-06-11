@@ -187,7 +187,7 @@ export const en: Content = {
         role: "Agile Coach · SysAdmin · Developer",
         description:
           "An inclusive and efficient doctoral application portal for TUM. I lead the agile process for 6 developers, run the server infrastructure, contribute code and supervise bachelor's theses around the platform.",
-        tags: ["Java", "Spring", "Angular", "Agile", "CI/CD"],
+        tags: ["Java", "Spring Boot", "Angular", "Agile", "CI/CD"],
         link: "https://aet.cit.tum.de/projects/edtech/tum-apply/",
       },
       {
@@ -207,7 +207,7 @@ export const en: Content = {
         role: "Reviewer · Contributor",
         description:
           "Interactive learning platform used by thousands of students. Developer during my bachelor's thesis, now contributing as reviewer and with occasional pull requests.",
-        tags: ["Java", "Spring", "Angular"],
+        tags: ["Java", "Spring Boot", "Angular"],
         link: "https://github.com/ls1intum/Artemis",
       },
       {
@@ -246,7 +246,7 @@ export const en: Content = {
         role: "Developer",
         description:
           "LLM-driven collaboration assessment and code quality feedback for team-based programming courses, developed as part of a team.",
-        tags: ["LLM", "Python"],
+        tags: ["Java", "Spring Boot", "Spring AI", "React"],
         link: "https://github.com/ls1intum/Harmonia",
       },
     ],
