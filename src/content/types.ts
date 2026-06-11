@@ -85,6 +85,5 @@ export interface Content {
     heading: string
     body: string
     emailCta: string
-    builtWith: string
   }
 }

@@ -10,7 +10,7 @@ interface SectionShellProps {
 
 export function SectionShell({ id, heading, sub, children }: SectionShellProps) {
   return (
-    <section id={id} className="scroll-mt-24 py-24">
+    <section id={id} className="scroll-mt-24 py-14">
       <div className="mx-auto max-w-6xl px-6">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
@@ -24,7 +24,7 @@ export function SectionShell({ id, heading, sub, children }: SectionShellProps) 
             </span>
           </h2>
           {sub && <p className="mt-3 max-w-2xl text-muted-foreground">{sub}</p>}
-          <div className="mt-12">{children}</div>
+          <div className="mt-10">{children}</div>
         </motion.div>
       </div>
     </section>

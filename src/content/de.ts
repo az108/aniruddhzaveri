@@ -13,13 +13,13 @@ export const de: Content = {
     eyebrow: "Software Engineer · Agile Coach",
     name: "Aniruddh Zaveri",
     tagline:
-      "Ich baue TUMApply, unterrichte Software Engineering an der TUM und begeistere mich für LLMs, EdTech und datengetriebene Systeme.",
+      "Ich baue TUMApply, unterrichte Software Engineering und DevOps an der TUM und arbeite gerne mit LLMs, EdTech und datengetriebenen Systemen.",
     workProfileCta: "Arbeitsprofil",
     statusBadge: "M.Sc. Wirtschaftsinformatik @ TUM",
   },
   about: {
     heading: "Über mich",
-    body: "Ich studiere Wirtschaftsinformatik an der TU München und arbeite als Software Engineer in der Forschungsgruppe Applied Education Technologies. Ich leite den agilen Prozess hinter TUMApply, betreue Bachelorarbeiten und unterrichte Kurse von Einführung in die Programmierung bis DevOps. [PLACEHOLDER: 2-3 persönliche Sätze — Hobbys, Antrieb, Fun Fact]",
+    body: "Ich studiere Wirtschaftsinformatik an der Technischen Universität München und arbeite als Software Engineer in der Forschungsgruppe Applied Education Technologies. Ich leite den agilen Prozess hinter TUMApply, habe Bachelorarbeiten betreut und unterrichte Kurse von Einführung in die Programmierung bis DevOps. Mich begeistert die Schnittstelle zwischen Management und Informatik — und in meiner Freizeit findet man mich beim Teamsport wie Hockey oder beim Gaming.",
     interestsHeading: "Interessen",
     interests: [
       "LLMs & KI-Anwendungen",
@@ -143,7 +143,8 @@ export const de: Content = {
         period: "Aug 2020 – Dez 2020",
         title: "Beratung / Finanzanalyse",
         org: "TELIS FINANZ AG",
-        description: "[PLACEHOLDER: 1 Satz zu deiner Tätigkeit bei TELIS]",
+        description:
+          "Nach einer kurzen Schulung für die Rolle als Finanzberater tätig.",
         tags: ["Beratung"],
         type: "work",
       },
@@ -154,7 +155,8 @@ export const de: Content = {
         title: "Praktikant International Accounting",
         org: "BMW Group",
         location: "München",
-        description: "[PLACEHOLDER: 1 Satz zum BMW-Praktikum]",
+        description:
+          "Teil des International-Accounting-Teams mit Einblicken in die Finanzprozesse eines globalen Automobilkonzerns.",
         tags: ["Finanzen"],
         type: "work",
       },
@@ -308,8 +310,7 @@ export const de: Content = {
   },
   contact: {
     heading: "Lass uns connecten",
-    body: "Ob Recruiter, Studierende auf Themensuche für eine Abschlussarbeit oder einfach neugierig — meine Inbox ist offen.",
+    body: "Ob Recruiter oder einfach neugierig — meine Inbox ist offen.",
     emailCta: "Schreib mir",
-    builtWith: "Gebaut mit React, Tailwind & Motion",
   },
 }

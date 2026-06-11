@@ -4,7 +4,7 @@ import { Header } from "@/components/layout/Header"
 import { Footer } from "@/components/layout/Footer"
 import { Hero } from "@/components/sections/Hero"
 import { About } from "@/components/sections/About"
-import { SkillsMarquee } from "@/components/sections/SkillsMarquee"
+import { SkillsGrid } from "@/components/sections/SkillsGrid"
 import { ExperienceTimeline } from "@/components/sections/ExperienceTimeline"
 import { Projects } from "@/components/sections/Projects"
 import { Teaching } from "@/components/sections/Teaching"
@@ -18,7 +18,7 @@ export default function App() {
         <main>
           <Hero />
           <About />
-          <SkillsMarquee />
+          <SkillsGrid />
           <ExperienceTimeline />
           <Projects />
           <Teaching />

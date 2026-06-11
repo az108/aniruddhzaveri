@@ -13,13 +13,13 @@ export const en: Content = {
     eyebrow: "Software Engineer · Agile Coach",
     name: "Aniruddh Zaveri",
     tagline:
-      "I build TUMApply, teach software engineering at TUM, and care about LLMs, EdTech and data-driven systems.",
+      "I build TUMApply, teach Software Engineering and DevOps at TUM, and like working with LLMs, EdTech and data-driven systems.",
     workProfileCta: "Work Profile",
     statusBadge: "M.Sc. Information Systems @ TUM",
   },
   about: {
     heading: "About Me",
-    body: "I'm an Information Systems student at TU München and a software engineer at the Applied Education Technologies research group. I lead the agile process behind TUMApply, supervise bachelor's theses and teach courses from Intro to Programming to DevOps. [PLACEHOLDER: 2-3 personal sentences — hobbies, what drives you, a fun fact]",
+    body: "I'm an Information Systems student at the Technical University of Munich and a software engineer at the Applied Education Technologies research group. I lead the agile process behind TUMApply, supervised bachelor's theses and teach courses from Introduction to Programming to DevOps. I love the intersection between management and informatics — and in my free time you'll find me playing team sports like hockey, or gaming.",
     interestsHeading: "Interests",
     interests: [
       "LLMs & AI applications",
@@ -143,7 +143,8 @@ export const en: Content = {
         period: "Aug 2020 – Dec 2020",
         title: "Consulting / Financial Analysis",
         org: "TELIS FINANZ AG",
-        description: "[PLACEHOLDER: 1 sentence about your work at TELIS]",
+        description:
+          "Worked as a financial consultant after completing a short training for the role.",
         tags: ["Consulting"],
         type: "work",
       },
@@ -154,7 +155,8 @@ export const en: Content = {
         title: "International Accounting Intern",
         org: "BMW Group",
         location: "Munich",
-        description: "[PLACEHOLDER: 1 sentence about the BMW internship]",
+        description:
+          "Part of the International Accounting team, gaining insights into the finance processes of a global automotive group.",
         tags: ["Finance"],
         type: "work",
       },
@@ -308,8 +310,7 @@ export const en: Content = {
   },
   contact: {
     heading: "Let's connect",
-    body: "Whether you're a recruiter, a student looking for a thesis, or just curious — my inbox is open.",
+    body: "Whether you're a recruiter or just curious — my inbox is open.",
     emailCta: "Say hello",
-    builtWith: "Built with React, Tailwind & Motion",
   },
 }

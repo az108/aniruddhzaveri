@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react"
 import { LanguageProvider } from "@/lib/i18n"
 import { About } from "./About"
-import { SkillsMarquee } from "./SkillsMarquee"
+import { SkillsGrid } from "./SkillsGrid"
 
 test("renders about heading, languages and interests", () => {
   render(
@@ -14,11 +14,12 @@ test("renders about heading, languages and interests", () => {
   expect(screen.getByText("Educational technology")).toBeInTheDocument()
 })
 
-test("marquee renders each skill twice for seamless looping", () => {
+test("skills grid renders each skill once", () => {
   render(
     <LanguageProvider>
-      <SkillsMarquee />
+      <SkillsGrid />
     </LanguageProvider>,
   )
-  expect(screen.getAllByText("Java")).toHaveLength(2)
+  expect(screen.getAllByText("Java")).toHaveLength(1)
+  expect(screen.getByText("Software Architecture")).toBeInTheDocument()
 })
