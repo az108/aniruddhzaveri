@@ -35,7 +35,11 @@ export function Header() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-border/40 bg-background/60 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
-        <a href="#home" className="text-lg font-black tracking-tight">
+        <a
+          href="#home"
+          aria-label="Aniruddh Zaveri — home"
+          className="text-lg font-black tracking-tight"
+        >
           A<span className="text-primary">Z</span>
         </a>
         <nav className="hidden gap-6 md:flex">
@@ -43,7 +47,8 @@ export function Header() {
             <a
               key={id}
               href={`#${id}`}
-              className={`text-sm transition-colors ${
+              aria-current={active === id ? "location" : undefined}
+              className={`text-sm transition-colors focus-visible:rounded-sm focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none ${
                 active === id ? "text-primary" : "text-muted-foreground hover:text-foreground"
               }`}
             >
@@ -55,6 +60,7 @@ export function Header() {
           {(["en", "de"] as Lang[]).map((l) => (
             <button
               key={l}
+              type="button"
               onClick={() => setLang(l)}
               className={`rounded-full px-2 py-0.5 uppercase transition-colors ${
                 lang === l
