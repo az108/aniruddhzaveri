@@ -174,7 +174,7 @@ export const en: Content = {
         description:
           "An inclusive and efficient doctoral application portal for TUM. I lead the agile process for 6 developers, run the server infrastructure, contribute code and supervise bachelor's theses around the platform.",
         tags: ["Java", "Spring", "Angular", "Agile", "CI/CD"],
-        link: "[PLACEHOLDER: TUMApply project link]",
+        link: "https://aet.cit.tum.de/projects/edtech/tum-apply/",
       },
       {
         id: "artemis",
@@ -193,7 +193,7 @@ export const en: Content = {
         role: "Quality Assurance",
         description: "Chatbot for TUM — I take care of quality assurance.",
         tags: ["LLM", "QA"],
-        link: "[PLACEHOLDER: TUMi Chatbot project link]",
+        link: "https://aet.cit.tum.de/projects/courses/ipraktikum/25s/",
       },
       {
         id: "athena",
@@ -203,7 +203,7 @@ export const en: Content = {
         description:
           "AI-powered assessment system. I developed the programming exercise code quality assessment feature.",
         tags: ["Python", "LLM"],
-        link: "[PLACEHOLDER: Athena project link]",
+        link: "https://aet.cit.tum.de/projects/edtech/athena/",
       },
       {
         id: "ares",
@@ -213,7 +213,7 @@ export const en: Content = {
         description:
           "Secure test execution for programming exercises, built with AspectJ and aspect-oriented programming.",
         tags: ["Java", "AspectJ"],
-        link: "[PLACEHOLDER: Ares project link]",
+        link: "https://aet.cit.tum.de/projects/se/ares/",
       },
       {
         id: "harmonia",
@@ -223,7 +223,7 @@ export const en: Content = {
         description:
           "LLM-driven collaboration assessment and code quality feedback for team-based programming courses, developed as part of a team.",
         tags: ["LLM", "Python"],
-        link: "[PLACEHOLDER: Harmonia project link]",
+        link: "https://github.com/ls1intum/Harmonia",
       },
     ],
   },

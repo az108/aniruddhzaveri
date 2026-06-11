@@ -174,7 +174,7 @@ export const de: Content = {
         description:
           "Ein inklusives und effizientes Bewerbungsportal für Promotionsstellen an der TUM. Ich leite den agilen Prozess für 6 Entwickler, betreibe die Serverinfrastruktur, entwickle mit und betreue Bachelorarbeiten rund um die Plattform.",
         tags: ["Java", "Spring", "Angular", "Agile", "CI/CD"],
-        link: "[PLACEHOLDER: TUMApply project link]",
+        link: "https://aet.cit.tum.de/projects/edtech/tum-apply/",
       },
       {
         id: "artemis",
@@ -193,7 +193,7 @@ export const de: Content = {
         role: "Qualitätssicherung",
         description: "Chatbot für die TUM — ich verantworte die Qualitätssicherung.",
         tags: ["LLM", "QA"],
-        link: "[PLACEHOLDER: TUMi Chatbot project link]",
+        link: "https://aet.cit.tum.de/projects/courses/ipraktikum/25s/",
       },
       {
         id: "athena",
@@ -203,7 +203,7 @@ export const de: Content = {
         description:
           "KI-gestütztes Bewertungssystem. Ich habe das Code-Quality-Assessment für Programmieraufgaben entwickelt.",
         tags: ["Python", "LLM"],
-        link: "[PLACEHOLDER: Athena project link]",
+        link: "https://aet.cit.tum.de/projects/edtech/athena/",
       },
       {
         id: "ares",
@@ -213,7 +213,7 @@ export const de: Content = {
         description:
           "Sichere Testausführung für Programmieraufgaben, umgesetzt mit AspectJ und aspektorientierter Programmierung.",
         tags: ["Java", "AspectJ"],
-        link: "[PLACEHOLDER: Ares project link]",
+        link: "https://aet.cit.tum.de/projects/se/ares/",
       },
       {
         id: "harmonia",
@@ -223,7 +223,7 @@ export const de: Content = {
         description:
           "LLM-gestützte Bewertung von Zusammenarbeit und Codequalität für teambasierte Programmierkurse, im Team entwickelt.",
         tags: ["LLM", "Python"],
-        link: "[PLACEHOLDER: Harmonia project link]",
+        link: "https://github.com/ls1intum/Harmonia",
       },
     ],
   },
