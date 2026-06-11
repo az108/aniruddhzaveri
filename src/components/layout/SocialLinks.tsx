@@ -1,11 +1,13 @@
-import { Briefcase, Camera, Code2, Mail } from "lucide-react"
+import { Mail } from "lucide-react"
+import { SiGithub, SiInstagram } from "react-icons/si"
+import { FaLinkedinIn } from "react-icons/fa6"
 import { Button } from "@/components/ui/button"
 import { links } from "@/content/shared"
 
 const socials = [
-  { href: links.github, icon: Code2, label: "GitHub" },
-  { href: links.linkedin, icon: Briefcase, label: "LinkedIn" },
-  { href: links.instagram, icon: Camera, label: "Instagram" },
+  { href: links.github, icon: SiGithub, label: "GitHub" },
+  { href: links.linkedin, icon: FaLinkedinIn, label: "LinkedIn" },
+  { href: links.instagram, icon: SiInstagram, label: "Instagram" },
   { href: `mailto:${links.email}`, icon: Mail, label: "Email" },
 ]
 
