@@ -13,14 +13,20 @@ export function Teaching() {
           </h3>
           <ul className="mt-4 space-y-3">
             {t.teaching.courses.map((course, i) => (
-              <li
-                key={`${course.semester}-${i}`}
-                className="flex items-baseline gap-3 rounded-lg border border-border/60 bg-card/40 px-4 py-3"
-              >
-                <span className="w-28 shrink-0 text-xs text-muted-foreground">
-                  {course.semester}
-                </span>
-                <span className="text-sm">{course.name}</span>
+              <li key={`${course.semester}-${i}`}>
+                <a
+                  href={course.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group flex items-baseline gap-3 rounded-lg border border-border/60 bg-card/40 px-4 py-3 transition-colors hover:border-teal-700"
+                >
+                  <span className="w-28 shrink-0 text-xs text-muted-foreground">
+                    {course.semester}
+                  </span>
+                  <span className="text-sm transition-colors group-hover:text-primary">
+                    {course.name}
+                  </span>
+                </a>
               </li>
             ))}
           </ul>
@@ -31,26 +37,32 @@ export function Teaching() {
           </h3>
           <ul className="mt-4 space-y-3">
             {t.teaching.theses.map((thesis) => (
-              <li
-                key={thesis.title}
-                className="rounded-lg border border-border/60 bg-card/40 px-4 py-3"
-              >
-                <div className="flex items-center justify-between gap-2">
-                  <span className="text-xs text-muted-foreground">
-                    {thesis.year} · {thesis.student}
-                  </span>
-                  <Badge
-                    variant="outline"
-                    className={
-                      thesis.status === "finished"
-                        ? "border-teal-800 text-teal-300"
-                        : "border-indigo-800 text-indigo-300"
-                    }
-                  >
-                    {t.teaching.thesisStatusLabels[thesis.status]}
-                  </Badge>
-                </div>
-                <p className="mt-1 text-sm">{thesis.title}</p>
+              <li key={thesis.title}>
+                <a
+                  href={thesis.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="group block rounded-lg border border-border/60 bg-card/40 px-4 py-3 transition-colors hover:border-teal-700"
+                >
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="text-xs text-muted-foreground">
+                      {thesis.year} · {thesis.student}
+                    </span>
+                    <Badge
+                      variant="outline"
+                      className={
+                        thesis.status === "finished"
+                          ? "border-teal-800 text-teal-300"
+                          : "border-indigo-800 text-indigo-300"
+                      }
+                    >
+                      {t.teaching.thesisStatusLabels[thesis.status]}
+                    </Badge>
+                  </div>
+                  <p className="mt-1 text-sm transition-colors group-hover:text-primary">
+                    {thesis.title}
+                  </p>
+                </a>
               </li>
             ))}
           </ul>

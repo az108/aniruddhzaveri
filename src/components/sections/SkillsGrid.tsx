@@ -15,7 +15,6 @@ export function SkillsGrid() {
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.35, delay: i * 0.05 }}
-              whileHover={{ y: -3 }}
               className="rounded-full border border-border bg-background/60 px-4 py-1.5 text-sm text-muted-foreground transition-colors hover:border-teal-700 hover:text-primary"
             >
               {item}

@@ -13,13 +13,13 @@ export const en: Content = {
     eyebrow: "Software Engineer · Agile Coach",
     name: "Aniruddh Zaveri",
     tagline:
-      "I build TUMApply, teach Software Engineering and DevOps at TUM, and like working with LLMs, EdTech and data-driven systems.",
+      "I teach Software Engineering and DevOps at TUM and like working with LLMs, EdTech and data-driven systems.",
     workProfileCta: "Work Profile",
     statusBadge: "M.Sc. Information Systems @ TUM",
   },
   about: {
     heading: "About Me",
-    body: "I'm an Information Systems student at the Technical University of Munich and a software engineer at the Applied Education Technologies research group. I lead the agile process behind TUMApply, supervised bachelor's theses and teach courses from Introduction to Programming to DevOps. I love the intersection between management and informatics — and in my free time you'll find me playing team sports like hockey, or gaming.",
+    body: "I'm an Information Systems student at the Technical University of Munich and a software engineer at the Applied Education Technologies research group. I lead the agile process behind TUMApply, supervised bachelor's theses and teach courses from Introduction to Programming to DevOps. I love the intersection between management and informatics. In my free time you'll find me playing team sports like hockey, or gaming.",
     interestsHeading: "Interests",
     interests: [
       "LLMs & AI applications",
@@ -179,6 +179,16 @@ export const en: Content = {
         link: "https://aet.cit.tum.de/projects/edtech/tum-apply/",
       },
       {
+        id: "nexus",
+        name: "Project Nexus",
+        status: "ongoing",
+        role: "Master's Thesis · Visualization",
+        description:
+          "AI-driven technology foresight system, developed as my Master's thesis in cooperation with BMW: trend signals become probability-weighted future scenarios, presented as an interactive \"window into the future\" on the BMW Future Lab touch display. I am fully responsible for the interactive visualization.",
+        tags: ["AI", "Technology Foresight", "Data Visualization", "Touch UI"],
+        link: "[PLACEHOLDER: Project Nexus link]",
+      },
+      {
         id: "artemis",
         name: "Artemis",
         status: "ongoing",
@@ -233,14 +243,46 @@ export const en: Content = {
     heading: "Teaching & Mentoring",
     coursesHeading: "Courses",
     courses: [
-      { semester: "Summer 2026", name: "DevOps: Engineering for Deployment and Operations" },
-      { semester: "Winter 2025/26", name: "Introduction to Programming" },
-      { semester: "Winter 2025/26", name: "Patterns in Software Engineering" },
-      { semester: "Winter 2025/26", name: "Practical Course: Interactive Learning" },
-      { semester: "Summer 2025", name: "DevOps: Engineering for Deployment and Operations" },
-      { semester: "Winter 2024/25", name: "Introduction to Programming" },
-      { semester: "Winter 2023/24", name: "Introduction to Programming" },
-      { semester: "Summer 2022", name: "Introduction to Software Engineering" },
+      {
+        semester: "Summer 2026",
+        name: "DevOps: Engineering for Deployment and Operations",
+        link: "https://aet.cit.tum.de/teaching/26s/devops/",
+      },
+      {
+        semester: "Winter 2025/26",
+        name: "Introduction to Programming",
+        link: "https://aet.cit.tum.de/teaching/25w/itp/",
+      },
+      {
+        semester: "Winter 2025/26",
+        name: "Patterns in Software Engineering",
+        link: "https://aet.cit.tum.de/teaching/25w/pse/",
+      },
+      {
+        semester: "Winter 2025/26",
+        name: "Practical Course: Interactive Learning",
+        link: "https://aet.cit.tum.de/teaching/25w/interactive-learning-practical/",
+      },
+      {
+        semester: "Summer 2025",
+        name: "DevOps: Engineering for Deployment and Operations",
+        link: "https://aet.cit.tum.de/teaching/25s/devops/",
+      },
+      {
+        semester: "Winter 2024/25",
+        name: "Introduction to Programming",
+        link: "https://aet.cit.tum.de/teaching/24w/itp/",
+      },
+      {
+        semester: "Winter 2023/24",
+        name: "Introduction to Programming",
+        link: "https://aet.cit.tum.de/teaching/23w/itp/",
+      },
+      {
+        semester: "Summer 2022",
+        name: "Introduction to Software Engineering",
+        link: "https://aet.cit.tum.de/teaching/22s/eist/",
+      },
     ],
     thesesHeading: "Supervised Theses",
     thesisStatusLabels: { "in-progress": "In progress", finished: "Finished" },
@@ -250,6 +292,7 @@ export const en: Content = {
         title: "Integrating AI Assistance in TUM's Doctoral Application Portal",
         student: "Catherine Kalra",
         status: "in-progress",
+        link: "https://aet.cit.tum.de/theses/integrating-ai-assistance-in-tums-doctoral-application-portal/",
       },
       {
         year: 2026,
@@ -257,6 +300,7 @@ export const en: Content = {
           "Integrating AI-Assisted Job Advertisement Creation and Compliance Checking in TUMApply",
         student: "Melissa Sioukri Oglou",
         status: "in-progress",
+        link: "https://aet.cit.tum.de/theses/integrating-ai-assisted-job-advertisement-creation-and-compliance-checking-in-tumapply/",
       },
       {
         year: 2026,
@@ -264,6 +308,7 @@ export const en: Content = {
           "Enhancing Notifications and Profile Management in TUM's Doctoral Application Portal",
         student: "Celine Lahnor",
         status: "in-progress",
+        link: "https://aet.cit.tum.de/theses/enhancing-notifications-and-profile-management-in-tums-doctoral-application-portal/",
       },
       {
         year: 2025,
@@ -271,6 +316,7 @@ export const en: Content = {
           "Development of an Appointment Scheduler for the TUM Doctoral Application Portal",
         student: "Abinaya Anita Sivaguru",
         status: "finished",
+        link: "https://aet.cit.tum.de/theses/development-of-an-appointment-scheduler-for-the-tum-doctoral-application-portal/",
       },
       {
         year: 2025,
@@ -278,12 +324,14 @@ export const en: Content = {
           "Development of Administrative Tools and Privacy Compliance for the TUM Doctoral Application Portal",
         student: "Sehmuel Wagner",
         status: "finished",
+        link: "https://aet.cit.tum.de/theses/development-of-administrative-tools-and-privacy-compliance-for-the-tum-doctoral-application-portal/",
       },
       {
         year: 2025,
         title: "Improving Usability and Inclusivity in TUM's Doctoral Application Portal",
         student: "Kiara Pia Copony",
         status: "finished",
+        link: "https://aet.cit.tum.de/theses/improving-usability-and-inclusivity-in-tums-doctoral-application-portal/",
       },
       {
         year: 2025,
@@ -291,6 +339,7 @@ export const en: Content = {
           "A Modular Review and Notification System for the Doctoral Application Portal at TUM",
         student: "Moritz Schmidt",
         status: "finished",
+        link: "https://aet.cit.tum.de/theses/a-modular-review-and-notification-system-for-the-doctoral-application-portal-at-tum/",
       },
       {
         year: 2025,
@@ -298,6 +347,7 @@ export const en: Content = {
           "Development of a User-Centric Application Management Module for the TUM Doctoral Portal",
         student: "Sarah Douglas",
         status: "finished",
+        link: "https://aet.cit.tum.de/theses/development-of-a-user-centric-application-management-module-for-the-tum-doctoral-portal/",
       },
       {
         year: 2025,
@@ -305,6 +355,7 @@ export const en: Content = {
           "Development of a Job Management Interface for an Inclusive and Efficient Doctoral Application Portal at TUM",
         student: "Ishani Budhwar",
         status: "finished",
+        link: "https://aet.cit.tum.de/theses/development-of-a-job-management-interface-for-an-inclusive-and-efficient-doctoral-application-portal-at-tum/",
       },
     ],
   },

@@ -24,6 +24,7 @@ export interface Project {
 export interface Course {
   semester: string
   name: string
+  link: string
 }
 
 export interface Thesis {
@@ -31,6 +32,7 @@ export interface Thesis {
   title: string
   student: string
   status: "in-progress" | "finished"
+  link: string
 }
 
 export interface Content {
