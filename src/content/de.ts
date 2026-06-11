@@ -59,6 +59,18 @@ export const de: Content = {
     typeLabels: { work: "Arbeit", education: "Ausbildung" },
     entries: [
       {
+        id: "nexus-thesis",
+        year: 2026,
+        period: "Jun 2026 – Dez 2026",
+        title: "Masterarbeit — Project Nexus",
+        org: "Technische Universität München · BMW",
+        location: "München",
+        description:
+          "KI-gestütztes Technologie-Foresight-System in Zusammenarbeit mit BMW: Trendsignale werden zu wahrscheinlichkeitsgewichteten Zukunftsszenarien. Vollverantwortlich für die interaktive Visualisierung auf dem Touch-Display des BMW Future Lab.",
+        tags: ["AI", "Data Visualization", "Touch UI"],
+        type: "education",
+      },
+      {
         id: "tum-pm",
         year: 2025,
         period: "Feb 2025 – heute",
