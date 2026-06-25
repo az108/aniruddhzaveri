@@ -70,7 +70,7 @@ export const en: Content = {
         location: "Munich",
         description:
           "AI-driven technology foresight system in cooperation with BMW: trend signals become probability-weighted future scenarios. Fully responsible for the interactive visualization on the BMW Future Lab touch display.",
-        tags: ["AI", "Data Visualization", "Touch UI"],
+        tags: ["AI", "Data Visualization", "Touch UI", "React", "Python", "DevOps"],
         type: "education",
       },
       {
@@ -82,7 +82,7 @@ export const en: Content = {
         location: "Munich",
         description:
           "Digitalizing TUM's doctoral hiring process with TUMApply. Agile Coach for a team of 6 developers, server administration, hands-on development and supervision of bachelor's theses.",
-        tags: ["Agile", "Java", "Angular", "Server Admin", "Mentoring"],
+        tags: ["Agile", "Java", "Angular", "Server Admin", "DevOps", "Mentoring"],
         type: "work",
       },
       {

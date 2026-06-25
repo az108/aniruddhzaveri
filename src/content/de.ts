@@ -70,7 +70,7 @@ export const de: Content = {
         location: "München",
         description:
           "KI-gestütztes Technologie-Foresight-System in Zusammenarbeit mit BMW: Trendsignale werden zu wahrscheinlichkeitsgewichteten Zukunftsszenarien. Vollverantwortlich für die interaktive Visualisierung auf dem Touch-Display des BMW Future Lab.",
-        tags: ["AI", "Data Visualization", "Touch UI"],
+        tags: ["AI", "Data Visualization", "Touch UI", "React", "Python", "DevOps"],
         type: "education",
       },
       {
@@ -82,7 +82,7 @@ export const de: Content = {
         location: "München",
         description:
           "Digitalisierung des Promotions-Bewerbungsprozesses der TUM mit TUMApply. Agile Coach für ein Team von 6 Entwicklern, Serveradministration, Entwicklung und Betreuung von Bachelorarbeiten.",
-        tags: ["Agile", "Java", "Angular", "Server Admin", "Mentoring"],
+        tags: ["Agile", "Java", "Angular", "Server Admin", "DevOps", "Mentoring"],
         type: "work",
       },
       {
