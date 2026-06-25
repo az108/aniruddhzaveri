@@ -14,7 +14,7 @@ test("renders all timeline entries newest first", () => {
   ).toBeInTheDocument()
   expect(screen.getByText("International Accounting Intern")).toBeInTheDocument()
   const articles = screen.getAllByRole("article")
-  expect(articles).toHaveLength(10)
+  expect(articles).toHaveLength(13)
 })
 
 test("education entries carry the education badge", () => {
@@ -23,5 +23,5 @@ test("education entries carry the education badge", () => {
       <ExperienceTimeline />
     </LanguageProvider>,
   )
-  expect(screen.getAllByText("Education")).toHaveLength(3)
+  expect(screen.getAllByText("Education")).toHaveLength(6)
 })
