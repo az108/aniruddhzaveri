@@ -179,11 +179,11 @@ export const de: Content = {
         id: "bmw",
         year: 2017,
         period: "Sep 2017 – Okt 2017",
-        title: "Praktikant International Accounting",
+        title: "Schülerpraktikum — International Accounting",
         org: "BMW Group",
         location: "München",
         description:
-          "Teil des International-Accounting-Teams mit Einblicken in die Finanzprozesse eines globalen Automobilkonzerns.",
+          "Teil der Abteilung International Accounting (FR-25) mit Einblicken in die Finanzprozesse eines globalen Automobilkonzerns.",
         tags: ["Finanzen"],
         type: "work",
       },

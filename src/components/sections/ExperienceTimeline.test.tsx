@@ -12,7 +12,7 @@ test("renders all timeline entries newest first", () => {
   expect(
     screen.getByText("Project Management & System Administration"),
   ).toBeInTheDocument()
-  expect(screen.getByText("International Accounting Intern")).toBeInTheDocument()
+  expect(screen.getByText("Student Internship — International Accounting")).toBeInTheDocument()
   const articles = screen.getAllByRole("article")
   expect(articles).toHaveLength(13)
 })

@@ -179,11 +179,11 @@ export const en: Content = {
         id: "bmw",
         year: 2017,
         period: "Sep 2017 – Oct 2017",
-        title: "International Accounting Intern",
+        title: "Student Internship — International Accounting",
         org: "BMW Group",
         location: "Munich",
         description:
-          "Part of the International Accounting team, gaining insights into the finance processes of a global automotive group.",
+          "Part of the International Accounting department (FR-25), gaining insights into the finance processes of a global automotive group.",
         tags: ["Finance"],
         type: "work",
       },
