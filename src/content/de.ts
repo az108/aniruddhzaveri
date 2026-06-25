@@ -164,18 +164,6 @@ export const de: Content = {
         type: "work",
       },
       {
-        id: "abitur",
-        year: 2020,
-        period: "2012 – 2020",
-        title: "Hans-Leinberger-Gymnasium",
-        org: "Abitur",
-        location: "Landshut",
-        description:
-          "Allgemeine Hochschulreife 2020 und Mittlerer Schulabschluss 2018.",
-        tags: [],
-        type: "education",
-      },
-      {
         id: "bmw",
         year: 2017,
         period: "Sep 2017 – Okt 2017",
@@ -186,6 +174,18 @@ export const de: Content = {
           "Teil der Abteilung International Accounting (FR-25) mit Einblicken in die Finanzprozesse eines globalen Automobilkonzerns.",
         tags: ["Finanzen"],
         type: "work",
+      },
+      {
+        id: "abitur",
+        year: 2012,
+        period: "2012 – 2020",
+        title: "Hans-Leinberger-Gymnasium",
+        org: "Abitur",
+        location: "Landshut",
+        description:
+          "Allgemeine Hochschulreife 2020 und Mittlerer Schulabschluss 2018.",
+        tags: [],
+        type: "education",
       },
       {
         id: "colham",

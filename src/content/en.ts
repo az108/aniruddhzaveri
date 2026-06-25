@@ -164,18 +164,6 @@ export const en: Content = {
         type: "work",
       },
       {
-        id: "abitur",
-        year: 2020,
-        period: "2012 – 2020",
-        title: "Hans-Leinberger-Gymnasium",
-        org: "Abitur",
-        location: "Landshut",
-        description:
-          "Allgemeine Hochschulreife in 2020 and the Mittlere Reife (intermediate certificate) in 2018.",
-        tags: [],
-        type: "education",
-      },
-      {
         id: "bmw",
         year: 2017,
         period: "Sep 2017 – Oct 2017",
@@ -186,6 +174,18 @@ export const en: Content = {
           "Part of the International Accounting department (FR-25), gaining insights into the finance processes of a global automotive group.",
         tags: ["Finance"],
         type: "work",
+      },
+      {
+        id: "abitur",
+        year: 2012,
+        period: "2012 – 2020",
+        title: "Hans-Leinberger-Gymnasium",
+        org: "Abitur",
+        location: "Landshut",
+        description:
+          "Allgemeine Hochschulreife in 2020 and the Mittlere Reife (intermediate certificate) in 2018.",
+        tags: [],
+        type: "education",
       },
       {
         id: "colham",
