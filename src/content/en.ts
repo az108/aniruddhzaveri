@@ -234,7 +234,7 @@ export const en: Content = {
         role: "Master's Thesis · Visualization",
         description:
           "AI-driven technology foresight system, developed as my Master's thesis in cooperation with BMW: trend signals become probability-weighted future scenarios, presented as an interactive \"window into the future\" on the BMW Future Lab touch display. I am fully responsible for the interactive visualization.",
-        tags: ["AI", "Technology Foresight", "Data Visualization", "Touch UI", "Docker", "CI/CD", "GitHub"],
+        tags: ["AI", "Technology Foresight", "Data Visualization", "Touch UI", "React", "Python", "DevOps", "Docker", "CI/CD", "GitHub"],
         link: "[PLACEHOLDER: Project Nexus link]",
       },
       {

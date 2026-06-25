@@ -234,7 +234,7 @@ export const de: Content = {
         role: "Masterarbeit · Visualisierung",
         description:
           "KI-gestütztes Technologie-Foresight-System, entwickelt als meine Masterarbeit in Zusammenarbeit mit BMW: Trendsignale werden zu wahrscheinlichkeitsgewichteten Zukunftsszenarien, präsentiert als interaktives „Fenster in die Zukunft“ auf dem Touch-Display des BMW Future Lab. Ich verantworte die interaktive Visualisierung vollständig.",
-        tags: ["AI", "Technology Foresight", "Data Visualization", "Touch UI", "Docker", "CI/CD", "GitHub"],
+        tags: ["AI", "Technology Foresight", "Data Visualization", "Touch UI", "React", "Python", "DevOps", "Docker", "CI/CD", "GitHub"],
         link: "[PLACEHOLDER: Project Nexus link]",
       },
       {
