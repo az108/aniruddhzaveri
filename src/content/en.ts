@@ -99,7 +99,7 @@ export const en: Content = {
       {
         id: "tum-tutor",
         year: 2024,
-        period: "Feb 2024 – Feb 2025",
+        period: "Feb 2024 – Sep 2026 (expected)",
         title: "Tutor & Instructor",
         org: "TU München",
         description:
