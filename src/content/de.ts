@@ -318,14 +318,29 @@ export const de: Content = {
         link: "https://aet.cit.tum.de/teaching/25s/devops/",
       },
       {
+        semester: "Sommer 2025",
+        name: "Einführung in die Softwaretechnik",
+        link: "https://dse.in.tum.de/teaching/eist-25/",
+      },
+      {
         semester: "Winter 2024/25",
         name: "Einführung in die Programmierung",
         link: "https://aet.cit.tum.de/teaching/24w/itp/",
       },
       {
+        semester: "Sommer 2024",
+        name: "Einführung in die Softwaretechnik",
+        link: "https://dse.in.tum.de/teaching/eist-24/",
+      },
+      {
         semester: "Winter 2023/24",
         name: "Einführung in die Programmierung",
         link: "https://aet.cit.tum.de/teaching/23w/itp/",
+      },
+      {
+        semester: "Sommer 2023",
+        name: "Einführung in die Softwaretechnik",
+        link: "https://dse.in.tum.de/teaching/ss23-eist23/",
       },
       {
         semester: "Sommer 2022",
